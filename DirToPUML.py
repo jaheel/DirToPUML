@@ -1,3 +1,4 @@
+# coding= UTF-8
 import os
 import sys
 
@@ -22,9 +23,9 @@ def get_file_path(root_path,symbol_level):
 if __name__ == "__main__":
     flag = True
     while(flag):
-        rootpath =input("Pleanse input the dirctory(finish: end):")
+        rootpath =input("Please input the directory(finish: end):")
         if os.path.exists(rootpath):
-            print("Input Correct,the dirctory is reading,please wait")
+            print("Input Correctly,the directory is reading,please wait")
             get_file_path(rootpath,"*")
             fileW=open("AutoRead.puml","w")  
             fileW.write(str + strend)
