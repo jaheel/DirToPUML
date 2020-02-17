@@ -1,4 +1,5 @@
-# coding= UTF-8
+# coding=UTF-8
+# Python version: 3.8.1
 import os
 import sys
 
